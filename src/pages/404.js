@@ -1,18 +1,36 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import { Layout } from '../components/common'
+import React, { PureComponent } from 'react';
+import { StaticQuery, graphql } from 'gatsby';
 
-const NotFoundPage = () => (
-    <Layout>
-        <div className="container">
-            <article className="content" style={{ textAlign: `center` }}>
-                <h1 className="content-title">Error 404</h1>
-                <section className="content-body">
-                    Page not found, <Link to="/">return home</Link> to start over
-                </section>
-            </article>
-        </div>
-    </Layout>
-)
+import Layout from 'components/Layout';
 
-export default NotFoundPage
+import './404.less';
+
+class NotFoundPage extends PureComponent {
+  render() {
+    return (
+      <StaticQuery
+        query={graphql`
+          query NotFoundPageQuery {
+            svg: file(relativePath: { eq: "404.svg" }) {
+              publicURL
+            }
+          }
+        `}
+        render={({ svg }) => (
+          <Layout title="Not Fond" class="notfound-page">
+            <div className="notfound-page__wrap">
+              <img src={svg.publicURL} alt="404" />
+
+              <div className="notfound-page__content">
+                <h1>NOT FOUND</h1>
+                <p>Oops, please see other pages.</p>
+              </div>
+            </div>
+          </Layout>
+        )}
+      />
+    );
+  }
+}
+
+export default NotFoundPage;

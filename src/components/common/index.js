@@ -1,4 +1,14 @@
-export { default as Layout } from './Layout'
-export { default as PostCard } from './PostCard'
-export { default as Pagination } from './Pagination'
-export { default as Navigation } from './Navigation'
+import Icon from './Icon';
+import Popover from './Popover';
+import Dropdown, { DropdownItem, DropdownLine } from './Dropdown';
+import Parallel, { ParallelLine } from './Parallel';
+
+export {
+  Icon,
+  Popover,
+  Dropdown,
+  DropdownItem,
+  DropdownLine,
+  Parallel,
+  ParallelLine,
+};
