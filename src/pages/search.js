@@ -15,8 +15,8 @@ import ThemeContext from 'components/ThemeContext';
 import './search.less';
 
 const client = algoliasearch(
-  process.env.GATSBY_ALGOLIA_APPID,
-  process.env.GATSBY_ALGOLIA_SEARCHKEY
+  "T2C2MCATYA",
+  "0d028a72e951982ecaf1d72ddabd9beb"
 );
 const postsDB = client.initIndex('posts');
 const authorDB = client.initIndex('author');
