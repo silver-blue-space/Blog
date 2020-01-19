@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[westwood]]></title><description><![CDATA[westwood's personal website]]></description><link>https://lizhi1026.cc</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 19 Jan 2020 08:21:00 GMT</lastBuildDate><item><title><![CDATA[如何系统地提高自己的智慧]]></title><description><![CDATA[…]]></description><link>https://lizhi1026.cc/2020/01-19/wisdom-update-ics</link><guid isPermaLink="false">https://lizhi1026.cc/2020/01-19/wisdom-update-ics</guid><pubDate>Sun, 19 Jan 2020 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[westwood]]></title><description><![CDATA[westwood's personal website]]></description><link>https://lizhi1026.cc</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 19 Jan 2020 09:51:46 GMT</lastBuildDate><item><title><![CDATA[如何系统地提高自己的智慧]]></title><description><![CDATA[…]]></description><link>https://lizhi1026.cc/2020/01-19/wisdom-update-ics</link><guid isPermaLink="false">https://lizhi1026.cc/2020/01-19/wisdom-update-ics</guid><pubDate>Sun, 19 Jan 2020 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;人一切的迷茫都来自：信息不足×思考不足。无论是寻找真爱之人，还是寻找毕生事业。信息量不足就没有选择的依据，思考不足就没有选择的原则，最后只能无从选择。&lt;/p&gt;
 &lt;p&gt;千万不要以为当下的困境是最重要的，更重要的是目前的困境揭示了什么，其实是在提醒你：知道的太少、思考的太少、不知道自己到底要什么。&lt;/p&gt;
 &lt;p&gt;即便你磕磕绊绊度过这次困境，核心问题不解决，下次纠结的困境自然会找上你。90％的人都在蹉跎中过一生，迷茫、纠结、无知、无助、哀怨伴随一生，都因为不正视问题的根源&lt;/p&gt;
@@ -371,7 +371,803 @@ ObjectInputStream objectStream &lt;span class=&quot;token operator&quot;&gt;=&lt
 &lt;p&gt;良好的设计基础是提供好的抽象。在开始编码前编写注释，可以帮助我们提炼模块的核心要素：模块或对象中最重要的功能和属性。这个过程促进我们去思考，而不是简单地堆砌代码。另一方面，注释也能够帮助我们检查自己的模块设计是否合理，正如前文中提到，深模块提供简单的接口和强大的功能，如果接口注释冗长复杂，通常意味着接口也很复杂；注释简单，意味着接口也很简单。在设计的早期注意和解决这些问题，会为我们带来长期的收益。&lt;/p&gt;
 &lt;h3 id=&quot;八、后记&quot;&gt;&lt;a href=&quot;#%E5%85%AB%E3%80%81%E5%90%8E%E8%AE%B0&quot; aria-label=&quot;八、后记 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;八、后记&lt;/h3&gt;
 &lt;p&gt;John Ousterhout累计写过25万行代码，是3个操作系统的重要贡献者，这些原则可以视为作者编程经验的总结。有经验的工程师看到这些观点会有共鸣，一些著作如《代码大全》、《领域驱动设计》也会有类似的观点。所以本文中提到的原则和方法具有一定实操和指导价值。对于很难有定论的问题，也可以在实践中去探索。&lt;/p&gt;
-&lt;p&gt;关于原则和方法论，既不必刻意拔高，也不要嗤之以鼻。指导实践的不是更多的实践，而是实践后的总结和思考。应用原则和方法论实质是借鉴已有的经验，可以减少我们自行摸索的时间。探索新的方法可以帮助我们适应新的场景，但是新方法本身需要经过时间检验。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[JavaScript 执行机制]]></title><description><![CDATA[1.关于javascript javascript是一门单线程语言，在最新的HTML5中提出了Web-Worker，但javascript是单线程这一核心仍未改变。所以一切javascript版的"多线程"都是用单线程模拟出来的，一切javascript多线程都是纸老虎！…]]></description><link>https://lizhi1026.cc/2017/11-20/javascript-run-loop-ics</link><guid isPermaLink="false">https://lizhi1026.cc/2017/11-20/javascript-run-loop-ics</guid><pubDate>Mon, 20 Nov 2017 00:00:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;1关于javascript&quot;&gt;&lt;a href=&quot;#1%E5%85%B3%E4%BA%8Ejavascript&quot; aria-label=&quot;1关于javascript permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1.关于javascript&lt;/h3&gt;
+&lt;p&gt;关于原则和方法论，既不必刻意拔高，也不要嗤之以鼻。指导实践的不是更多的实践，而是实践后的总结和思考。应用原则和方法论实质是借鉴已有的经验，可以减少我们自行摸索的时间。探索新的方法可以帮助我们适应新的场景，但是新方法本身需要经过时间检验。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[从源码解读Category实现原理]]></title><description><![CDATA[什么是category？ category是 Objective-C 2.0 之后添加的语言特性，主要作用是为已经存在的类添加方法。除此之外，Apple 还推荐了category…]]></description><link>https://lizhi1026.cc/2018/03-06/Category</link><guid isPermaLink="false">https://lizhi1026.cc/2018/03-06/Category</guid><pubDate>Tue, 06 Mar 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;什么是category？&quot;&gt;&lt;a href=&quot;#%E4%BB%80%E4%B9%88%E6%98%AFcategory%EF%BC%9F&quot; aria-label=&quot;什么是category？ permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;什么是category？&lt;/h3&gt;
+&lt;p&gt;category是 Objective-C 2.0 之后添加的语言特性，主要作用是为已经存在的类添加方法。除此之外，Apple 还推荐了category 的另外两个使用场景。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;可以把类的实现分开在几个不同的文件里面。这样做有几个显而易见的好处&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;可以减少单个文件的体积&lt;/li&gt;
+&lt;li&gt;可以把不同的功能组织到不同的 category 里&lt;/li&gt;
+&lt;li&gt;可以由多个开发者共同完成一个类&lt;/li&gt;
+&lt;li&gt;可以按需加载想要的 category 等等&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;声明私有方法&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;不过除了apple推荐的使用场景，还衍生出了 category 的其他几个使用场景：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;模拟多继承&lt;/li&gt;
+&lt;li&gt;把framework的私有方法公开&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;category特点&quot;&gt;&lt;a href=&quot;#category%E7%89%B9%E7%82%B9&quot; aria-label=&quot;category特点 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;category特点&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;category 只能给某个已有的类扩充方法，不能扩充成员变量&lt;/li&gt;
+&lt;li&gt;category 中也可以添加属性，只不过 &lt;code class=&quot;language-text&quot;&gt;@property&lt;/code&gt; 只会生成 &lt;code class=&quot;language-text&quot;&gt;setter&lt;/code&gt; 和 &lt;code class=&quot;language-text&quot;&gt;getter&lt;/code&gt; 的声明，不会生成 &lt;code class=&quot;language-text&quot;&gt;setter&lt;/code&gt; 和 &lt;code class=&quot;language-text&quot;&gt;getter&lt;/code&gt; 的实现以及成员变量&lt;/li&gt;
+&lt;li&gt;如果 category 中的方法和类中原有方法同名，category 中的方法会覆盖掉类中原有的方法&lt;/li&gt;
+&lt;li&gt;如果多个 category 中存在同名的方法，运行时到底调用哪个方法由编译器决定，后面参与编译的方法会覆盖前面同名的方法，所以最后一个参与编译的方法会被调用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这里说的是覆盖而不是替换，是因为后编译的方法被放在了方法列表的前面而已，runtime机制先找到前面的方法来执行&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;category--vs--extension&quot;&gt;&lt;a href=&quot;#category--vs--extension&quot; aria-label=&quot;category  vs  extension permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;code class=&quot;language-text&quot;&gt;Category&lt;/code&gt;  VS  &lt;code class=&quot;language-text&quot;&gt;Extension&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;category 常常拿来与 extension 做比较，extension 一样可以添加属性和方法，extension 看起来很像一个匿名的 category。但实际上两者几乎完全是两个东西&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;extension 运行在编译期，它就是类的一部分，拓展的方法，属性和变量一起形成一个完整的类。category 是运行期决议的，此时对象的内存布局已经确定，无法再添加实例变量&lt;/li&gt;
+&lt;li&gt;extension 一般用来隐藏类的私有信息，你必须有一个类的源码才能为一个类添加 extension&lt;/li&gt;
+&lt;li&gt;extension 和 category 都可以添加属性，但是 category 的属性不能生成成员变量和 getter、setter 方法的实现&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;category原理&quot;&gt;&lt;a href=&quot;#category%E5%8E%9F%E7%90%86&quot; aria-label=&quot;category原理 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;category原理&lt;/h3&gt;
+&lt;p&gt;讲了一堆category的作用和特点，我们来看一下category的定义&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;c++&quot;&gt;&lt;pre class=&quot;language-c++&quot;&gt;&lt;code class=&quot;language-c++&quot;&gt;typedef struct category_t *Category;
+
+struct category_t {
+    const char *name;	//category名称
+    classref_t cls; 	//要拓展的类
+    struct method_list_t *instanceMethods; //给类添加的实例方法的列表
+    struct method_list_t *classMethods;  //给类添加的类方法的列表
+    struct protocol_list_t *protocols;  //给类添加的协议的列表
+    struct property_list_t *instanceProperties;  //给类添加的属性的列表
+};&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;实际上 &lt;code class=&quot;language-text&quot;&gt;Category&lt;/code&gt; 是一个 &lt;code class=&quot;language-text&quot;&gt;category_t&lt;/code&gt; 的结构体，里面维护着类的信息和category的名称，以及类方法列表，实例方法列表，协议的列表和属性的列表&lt;/p&gt;
+&lt;p&gt;那么Category是怎么加载的呢？&lt;/p&gt;
+&lt;p&gt;我们知道，Objective-C 的运行是依赖 OC 的 runtime 的， 而 OC 的 runtime 和其他系统库一样，是OS X和iOS通过&lt;a href=&quot;https://opensource.apple.com/tarballs/objc4/objc4-723.tar.gz&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;dyld&lt;/a&gt;动态加载的&lt;/p&gt;
+&lt;p&gt;我们从OC运行时，入口方法出发&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;c++&quot;&gt;&lt;pre class=&quot;language-c++&quot;&gt;&lt;code class=&quot;language-c++&quot;&gt;void _objc_init(void)
+{
+    static bool initialized = false;
+    if (initialized) return;
+    initialized = true;
+    
+    // fixme defer initialization until an objc-using image is found?
+    environ_init();
+    tls_init();
+    static_init();
+    lock_init();
+    exception_init();
+
+    _dyld_objc_notify_register(&amp;amp;map_images, load_images, unmap_image);
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;到真正完成绑定 category 的函数&lt;code class=&quot;language-text&quot;&gt;attachCategories&lt;/code&gt;中间的函数调用栈是&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;void _objc_init(void);
+└── void map_images(...);
+    └── void map_images_nolock(...);
+        └── void _read_images(...);
+            └── void _read_images(...);
+                └── static void remethodizeClass(Class cls);
+                    └──attachCategories(Class cls, category_list *cats, bool flush_caches);&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;我们来看一下 &lt;code class=&quot;language-text&quot;&gt;attachCategories&lt;/code&gt; 源码的简易版：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;c++&quot;&gt;&lt;pre class=&quot;language-c++&quot;&gt;&lt;code class=&quot;language-c++&quot;&gt;static void 
+attachCategories(Class cls, category_list *cats, bool flush_caches)
+{
+    if (!cats) return;
+    
+    bool isMeta = cls-&amp;gt;isMetaClass();
+
+    method_list_t **mlists = (method_list_t **)
+        malloc(cats-&amp;gt;count * sizeof(*mlists));
+
+    int mcount = 0;
+    int i = cats-&amp;gt;count;
+    bool fromBundle = NO;
+    while (i--) {
+        auto&amp;amp; entry = cats-&amp;gt;list[i];
+
+        method_list_t *mlist = entry.cat-&amp;gt;methodsForMeta(isMeta);
+        if (mlist) {
+            mlists[mcount++] = mlist;
+            fromBundle |= entry.hi-&amp;gt;isBundle();
+        }
+    }
+
+    auto rw = cls-&amp;gt;data();
+
+    prepareMethodLists(cls, mlists, mcount, NO, fromBundle);
+    rw-&amp;gt;methods.attachLists(mlists, mcount);
+    free(mlists);
+    if (flush_caches  &amp;amp;&amp;amp;  mcount &amp;gt; 0) flushCaches(cls);
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;从上面的代码可以看出，增加方法的操作实际是分配一个大的实例方法列表
+&lt;code class=&quot;language-text&quot;&gt;method_list_t **mlists = (method_list_t **)
+        malloc(cats-&amp;gt;count * sizeof(*mlists));&lt;/code&gt; 再通过 for 循环将category中的方法列表填入这个大的列表，最后交给 &lt;code class=&quot;language-text&quot;&gt;rw-&amp;gt;methods.attachLists(mlists, mcount);&lt;/code&gt;将方法列表增加到类的方法列表上去。其他的属性添加与此类似&lt;/p&gt;
+&lt;p&gt;我们再看一段 &lt;code class=&quot;language-text&quot;&gt;attachLists&lt;/code&gt;的源码&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;c++&quot;&gt;&lt;pre class=&quot;language-c++&quot;&gt;&lt;code class=&quot;language-c++&quot;&gt;void attachLists(List* const * addedLists, uint32_t addedCount) {
+ if (hasArray()) {
+        
+        //旧的方法列表的长度
+        uint32_t oldCount = array()-&amp;gt;count;
+        
+        //新的方法列表的长度
+        uint32_t newCount = oldCount + addedCount;
+        
+        setArray((array_t *)realloc(array(), array_t::byteSize(newCount)));
+        array()-&amp;gt;count = newCount;
+        
+        //从addedCount的偏移量添加旧的方法列表
+        memmove(array()-&amp;gt;lists + addedCount, array()-&amp;gt;lists, 
+                oldCount * sizeof(array()-&amp;gt;lists[0]));
+        //从开始添加新方法列表
+        memcpy(array()-&amp;gt;lists, addedLists, 
+               addedCount * sizeof(array()-&amp;gt;lists[0]));
+        }
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;从上面的代码也验证了我们上面所说的，同名的方法是覆盖而不是替换，category的方法被放到了新方法列表的前面&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;category和关联对象&quot;&gt;&lt;a href=&quot;#category%E5%92%8C%E5%85%B3%E8%81%94%E5%AF%B9%E8%B1%A1&quot; aria-label=&quot;category和关联对象 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;category和关联对象&lt;/h3&gt;
+&lt;p&gt;如上所述，category 的属性不能生成成员变量和 &lt;code class=&quot;language-text&quot;&gt;getter&lt;/code&gt;、&lt;code class=&quot;language-text&quot;&gt;setter&lt;/code&gt; 方法的实现，我们要自己实现 &lt;code class=&quot;language-text&quot;&gt;getter&lt;/code&gt; 和 &lt;code class=&quot;language-text&quot;&gt;setter&lt;/code&gt; 方法，需借助关联对象来实现&lt;/p&gt;
+&lt;p&gt;关联对象来实现提供三个接口 &lt;code class=&quot;language-text&quot;&gt;objc_setAssociatedObject&lt;/code&gt;,&lt;code class=&quot;language-text&quot;&gt;objc_getAssociatedObject&lt;/code&gt;,&lt;code class=&quot;language-text&quot;&gt;objc_removeAssociatedObjects&lt;/code&gt;,他们分别调用的是&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;c++&quot;&gt;&lt;pre class=&quot;language-c++&quot;&gt;&lt;code class=&quot;language-c++&quot;&gt;id objc_getAssociatedObject(id object, const void *key) {
+    return _object_get_associative_reference(object, (void *)key);
+}
+
+void objc_setAssociatedObject(id object, const void *key, id value, objc_AssociationPolicy policy) {
+    _object_set_associative_reference(object, (void *)key, value, policy);
+}
+
+void objc_removeAssociatedObjects(id object) 
+{
+    if (object &amp;amp;&amp;amp; object-&amp;gt;hasAssociatedObjects()) {
+        _object_remove_assocations(object);
+    }
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;他们调用的接口都位于 &lt;code class=&quot;language-text&quot;&gt;objc-references.mm&lt;/code&gt;文件中,&lt;/p&gt;
+&lt;h5 id=&quot;objectgetassociativereference&quot;&gt;&lt;a href=&quot;#objectgetassociativereference&quot; aria-label=&quot;objectgetassociativereference permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;em&gt;object&lt;/em&gt;get&lt;em&gt;associative&lt;/em&gt;reference&lt;/h5&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;c++&quot;&gt;&lt;pre class=&quot;language-c++&quot;&gt;&lt;code class=&quot;language-c++&quot;&gt;id _object_get_associative_reference(id object, void *key) {
+    id value = nil;
+    uintptr_t policy = OBJC_ASSOCIATION_ASSIGN;
+    {
+        AssociationsManager manager;
+        AssociationsHashMap &amp;amp;associations(manager.associations());
+        disguised_ptr_t disguised_object = DISGUISE(object);
+        AssociationsHashMap::iterator i = associations.find(disguised_object);
+        if (i != associations.end()) {
+            ObjectAssociationMap *refs = i-&amp;gt;second;
+            ObjectAssociationMap::iterator j = refs-&amp;gt;find(key);
+            if (j != refs-&amp;gt;end()) {
+                ObjcAssociation &amp;amp;entry = j-&amp;gt;second;
+                value = entry.value();
+                policy = entry.policy();
+                if (policy &amp;amp; OBJC_ASSOCIATION_GETTER_RETAIN) {
+                    objc_retain(value);
+                }
+            }
+        }
+    }
+    if (value &amp;amp;&amp;amp; (policy &amp;amp; OBJC_ASSOCIATION_GETTER_AUTORELEASE)) {
+        objc_autorelease(value);
+    }
+    return value;
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;这段代码引用的类型有&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;AssociationsManager&lt;/li&gt;
+&lt;li&gt;AssociationsHashMap&lt;/li&gt;
+&lt;li&gt;ObjcAssociationMap&lt;/li&gt;
+&lt;li&gt;ObjcAssociation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;AssociationsManager源码&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;c++&quot;&gt;&lt;pre class=&quot;language-c++&quot;&gt;&lt;code class=&quot;language-c++&quot;&gt;spinlock_t AssociationsManagerLock;
+
+class AssociationsManager {
+    static AssociationsHashMap *_map;
+public:
+    // 初始化时候
+    AssociationsManager()   { AssociationsManagerLock.lock(); }
+    // 析构的时候
+    ~AssociationsManager()  { AssociationsManagerLock.unlock(); }
+    
+    // associations 方法用于取得一个全局的 AssociationsHashMap 单例
+    AssociationsHashMap &amp;amp;associations() {
+        if (_map == NULL)
+            _map = new AssociationsHashMap();
+        return *_map;
+    }
+};&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;AssociationsManager 初始化一个 &lt;code class=&quot;language-text&quot;&gt;AssociationsHashMap&lt;/code&gt; 的单例，用自旋锁 &lt;code class=&quot;language-text&quot;&gt;AssociationsManagerLock&lt;/code&gt; 保证线程安全&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;AssociationsHashMap源码&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;c++&quot;&gt;&lt;pre class=&quot;language-c++&quot;&gt;&lt;code class=&quot;language-c++&quot;&gt;class AssociationsHashMap : public unordered_map&amp;lt;disguised_ptr_t, ObjectAssociationMap *, DisguisedPointerHash, DisguisedPointerEqual, AssociationsHashMapAllocator&amp;gt; {
+    public:
+        void *operator new(size_t n) { return ::malloc(n); }
+        void operator delete(void *ptr) { ::free(ptr); }
+    };
+    &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;AssociationsHashMap&lt;/code&gt; 是一个map类型，用于保存对象的对象的 &lt;code class=&quot;language-text&quot;&gt;disguised_ptr_t&lt;/code&gt; 到 &lt;code class=&quot;language-text&quot;&gt;ObjectAssociationMap&lt;/code&gt; 的映射&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ObjectAssociationMap源码&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;c++&quot;&gt;&lt;pre class=&quot;language-c++&quot;&gt;&lt;code class=&quot;language-c++&quot;&gt;class ObjectAssociationMap : public std::map&amp;lt;void *, ObjcAssociation, ObjectPointerLess, ObjectAssociationMapAllocator&amp;gt; {
+    public:
+        void *operator new(size_t n) { return ::malloc(n); }
+        void operator delete(void *ptr) { ::free(ptr); }
+    };&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;ObjectAssociationMap&lt;/code&gt; 则保存了从 key 到关联对象  &lt;code class=&quot;language-text&quot;&gt;ObjcAssociation&lt;/code&gt;      的映射，这个数据结构保存了当前对象对应的所有关联对象&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ObjcAssociation源码&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;c++&quot;&gt;&lt;pre class=&quot;language-c++&quot;&gt;&lt;code class=&quot;language-c++&quot;&gt;class ObjcAssociation {
+        uintptr_t _policy;
+        id _value;
+    public:
+        ObjcAssociation(uintptr_t policy, id value) : _policy(policy), _value(value) {}
+        ObjcAssociation() : _policy(0), _value(nil) {}
+
+        uintptr_t policy() const { return _policy; }
+        id value() const { return _value; }
+        
+        bool hasValue() { return _value != nil; }
+    };&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;ObjcAssociation&lt;/code&gt;  就是真正的关联对象的类，上面的所有数据结构只是为了更好的存储它。&lt;/p&gt;
+&lt;p&gt;最关键的 &lt;code class=&quot;language-text&quot;&gt;ObjcAssociation&lt;/code&gt; 包含了 &lt;code class=&quot;language-text&quot;&gt;policy&lt;/code&gt; 以及 &lt;code class=&quot;language-text&quot;&gt;value&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;用一张图解释他们的关系就是：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-gold-cdn.xitu.io/2018/3/6/161f8d91dcd23a17?w=3272&amp;#x26;h=513&amp;#x26;f=png&amp;#x26;s=164674&quot;&gt;&lt;/p&gt;
+&lt;p&gt;从上图我们不难看出 &lt;code class=&quot;language-text&quot;&gt;_object_get_associative_reference&lt;/code&gt; 获取关联对象的步骤是：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;AssociationsHashMap &amp;amp;associations(manager.associations())&lt;/code&gt; 获取 &lt;code class=&quot;language-text&quot;&gt;AssociationsHashMap&lt;/code&gt; 的单例对象 &lt;code class=&quot;language-text&quot;&gt;associations&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;disguised_ptr_t disguised_object = DISGUISE(object)&lt;/code&gt; 获取对象的地址&lt;/li&gt;
+&lt;li&gt;通过对象的地址在 &lt;code class=&quot;language-text&quot;&gt;associations&lt;/code&gt; 中获取 &lt;code class=&quot;language-text&quot;&gt;AssociationsHashMap&lt;/code&gt;迭代器&lt;/li&gt;
+&lt;li&gt;通过 &lt;code class=&quot;language-text&quot;&gt;key&lt;/code&gt;获取到 &lt;code class=&quot;language-text&quot;&gt;ObjectAssociationMap&lt;/code&gt;的迭代器&lt;/li&gt;
+&lt;li&gt;最后得出关联对象类 &lt;code class=&quot;language-text&quot;&gt;ObjcAssociation&lt;/code&gt; 的实例 &lt;code class=&quot;language-text&quot;&gt;entry&lt;/code&gt;，再获取到 &lt;code class=&quot;language-text&quot;&gt;value&lt;/code&gt; 和 &lt;code class=&quot;language-text&quot;&gt;policy&lt;/code&gt; 的值&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&quot;objectsetassociativereference&quot;&gt;&lt;a href=&quot;#objectsetassociativereference&quot; aria-label=&quot;objectsetassociativereference permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;em&gt;object&lt;/em&gt;set&lt;em&gt;associative&lt;/em&gt;reference&lt;/h5&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;c++&quot;&gt;&lt;pre class=&quot;language-c++&quot;&gt;&lt;code class=&quot;language-c++&quot;&gt;void _object_set_associative_reference(id object, void *key, id value, uintptr_t policy) {
+    // retain the new value (if any) outside the lock.
+    uintptr_t old_policy = 0; // NOTE:  old_policy is always assigned to when old_value is non-nil.
+    id new_value = value ? acquireValue(value, policy) : nil, old_value = nil; // 调用 acquireValue 对 value 进行 retain 或者 copy
+    {
+
+        // &amp;amp; 取地址 *是指针，就是地址的内容
+        AssociationsManager manager;  // 初始化一个 AssociationsManager 类型的变量 manager
+        AssociationsHashMap &amp;amp;associations(manager.associations());   // 取得一个全局的 AssociationsHashMap 单例
+        if (new_value) {
+
+            // 如果new_value不为空，开始遍历associations指向的map，查找object对象是否存在保存联合存储数据的ObjectAssociationMap对象
+
+            // 查找map中是否包含某个关键字条目，用 find() 方法，传入的参数是要查找的key（被关联对象的内存地址），在这里需要提到的是begin()和end()两个成员，分别代表map对象中第一个条目和最后一个条目，这两个数据的类型是iterator.
+            // 定义一个条目变量 i (实际是指针)
+            AssociationsHashMap::iterator i = associations.find(object);  // AssociationsHashMap 是一个无序的哈希表，维护了从对象地址到 ObjectAssociationMap 的映射；
+
+
+            // iterator是 C++ 中的迭代器 ， 这句话是定义一个 AssociationsHashMap::iterator 类型的变量 i，初始化为 associations.find(object) ， associations是AssociationsHashMap类型对象。
+
+            // 通过map对象的方法获取的iterator数据类型 是一个std::pair对象
+            // 根据对象地址获取起对应的 ObjectAssociationMap对象
+            if (i != associations.end()) {
+                // 存在
+
+                // object对象在associations指向的map中存在一个ObjectAssociationMap对象refs
+
+                // ObjectAssociationMap 是一个 C++ 中的 map ，维护了从 key（就是外界传入的key） 到 ObjcAssociation 的映射，即关联记录
+                ObjectAssociationMap *refs = i-&amp;gt;second;              //  指针 调用方法 需要用 -&amp;gt;   i 是 AssociationsHashMap    i-&amp;gt;second 表示ObjectAssociationMap  i-&amp;gt;first 表示对象的地址
+                ObjectAssociationMap::iterator j = refs-&amp;gt;find(key);  //  根据传入的关联对象的key（一个地址）获取其对应的关联对象  ObjectAssociationMap
+
+
+                // 关联对象是否存在
+                if (j != refs-&amp;gt;end()) {
+                    // 使用过该key保存value，用新的value和policy替换掉原来的值
+                    // 如果存在 持有旧的关联对象
+                    ObjcAssociation &amp;amp;old_entry = j-&amp;gt;second;  
+                    old_policy = old_entry.policy;
+                    old_value = old_entry.value;
+
+                    // 存入新的关联对象
+                    old_entry.policy = policy;
+                    old_entry.value = new_value;
+                } else {
+                    // 没用使用过该key保存value，将value和policy保存到key映射的map中
+                    // 如果不存在 直接存入新的关联对象
+                    (*refs)[key] = ObjcAssociation(policy, new_value);   // 对map 插入元素
+                }
+            }
+            else {
+
+                // 不存在
+                // 没有object就创建
+                // create the new association (first time).
+                ObjectAssociationMap *refs = new ObjectAssociationMap;
+                associations[object] = refs;
+                (*refs)[key] = ObjcAssociation(policy, new_value);
+                _class_setInstancesHaveAssociatedObjects(_object_getClass(object));
+            }
+        } else {
+            // setting the association to nil breaks the association.
+            AssociationsHashMap::iterator i = associations.find(object);
+            if (i !=  associations.end()) {
+                ObjectAssociationMap *refs = i-&amp;gt;second;
+                ObjectAssociationMap::iterator j = refs-&amp;gt;find(key);
+                if (j != refs-&amp;gt;end()) {
+                    ObjcAssociation &amp;amp;old_entry = j-&amp;gt;second;
+                    old_policy = old_entry.policy;
+                    old_value = (id) old_entry.value;
+
+                    // 从 map中删除该项
+                    refs-&amp;gt;erase(j);
+                }
+            }
+        }
+    }
+
+    // 旧的关联对象是否存在，如果存在，释放旧的关联对象。
+    // release the old value (outside of the lock).
+    if (old_value) releaseValue(old_value, old_policy);
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;_object_set_associative_reference&lt;/code&gt;设置关联对象的流程参照图片：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-gold-cdn.xitu.io/2018/3/6/161f93d77f7144de?w=700&amp;#x26;h=816&amp;#x26;f=jpeg&amp;#x26;s=61761&quot;&gt;&lt;/p&gt;
+&lt;h5 id=&quot;关联策略&quot;&gt;&lt;a href=&quot;#%E5%85%B3%E8%81%94%E7%AD%96%E7%95%A5&quot; aria-label=&quot;关联策略 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;关联策略&lt;/h5&gt;
+&lt;p&gt;在给一个对象添加关联对象时有五种关联策略可供选择：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;关联策略&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;等价属性&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;OBJC&lt;em&gt;ASSOCIATION&lt;/em&gt;ASSIGN&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;@property (assign) or @property (unsafe_unretained)&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;弱引用关联对象&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;OBJC&lt;em&gt;ASSOCIATION&lt;/em&gt;RETAIN_NONATOMIC&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;@property (strong, nonatomic)&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;强引用关联对象，且为非原子操作&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;OBJC&lt;em&gt;ASSOCIATION&lt;/em&gt;COPY_NONATOMIC&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;@property (copy, nonatomic)&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;复制关联对象，且为非原子操作&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;OBJC&lt;em&gt;ASSOCIATION&lt;/em&gt;RETAIN&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;@property (strong, atomic)&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;强引用关联对象，且为原子操作&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;OBJC&lt;em&gt;ASSOCIATION&lt;/em&gt;COPY&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;@property (copy, atomic)&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;复制关联对象，且为原子操作&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h5 id=&quot;objectremove_assocations&quot;&gt;&lt;a href=&quot;#objectremove_assocations&quot; aria-label=&quot;objectremove_assocations permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;em&gt;object&lt;/em&gt;remove_assocations&lt;/h5&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;c++&quot;&gt;&lt;pre class=&quot;language-c++&quot;&gt;&lt;code class=&quot;language-c++&quot;&gt;void _object_remove_assocations(id object) {
+    vector&amp;lt; ObjcAssociation,ObjcAllocator&amp;lt;ObjcAssociation&amp;gt; &amp;gt; elements;
+    {
+        AssociationsManager manager;
+        AssociationsHashMap &amp;amp;associations(manager.associations());
+        if (associations.size() == 0) return;
+        disguised_ptr_t disguised_object = DISGUISE(object);
+        AssociationsHashMap::iterator i = associations.find(disguised_object);
+        if (i != associations.end()) {
+            // 获取到所有的关联对象的associations实例
+            ObjectAssociationMap *refs = i-&amp;gt;second;
+            for (ObjectAssociationMap::iterator j = refs-&amp;gt;begin(), end = refs-&amp;gt;end(); j != end; ++j) {
+                elements.push_back(j-&amp;gt;second);
+            }
+            delete refs;    //删除ObjectAssociationMap
+            associations.erase(i);//删除AssociationsHashMap
+        }
+    }
+    //删除elements集合中的所有ObjcAssociation元素
+    for_each(elements.begin(), elements.end(), ReleaseValue());
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;删除关联对象的流程相对就比较简单了，将获取到的关联对象ObjcAssociation的实例放入一个 &lt;code class=&quot;language-text&quot;&gt;vector&lt;/code&gt;中，删除对应的 &lt;code class=&quot;language-text&quot;&gt;ObjectAssociationMap&lt;/code&gt; 和 &lt;code class=&quot;language-text&quot;&gt;AssociationsHashMap&lt;/code&gt;,最后对 &lt;code class=&quot;language-text&quot;&gt;vector&lt;/code&gt; 中每个 &lt;code class=&quot;language-text&quot;&gt;ObjcAssociation&lt;/code&gt; 实例做release操作&lt;/p&gt;
+&lt;h3 id=&quot;总结&quot;&gt;&lt;a href=&quot;#%E6%80%BB%E7%BB%93&quot; aria-label=&quot;总结 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;总结&lt;/h3&gt;
+&lt;p&gt;Category在iOS开发中是比较常见的，用于给现有的类拓展新的方法和属性。本文从底层分析了Category的原理，以及关联对象实现，使大家对Category能有一个更深的认识，在以后的开发工作中能更好的使用这一特性。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Mach-O 可执行文件]]></title><description><![CDATA[我们用 Xcode 构建一个程序的过程中，会把源文件 ( 和 ) 文件转换为一个可执行文件。这个可执行文件中包含的字节码会将被 CPU (iOS 设备中的 ARM 处理器或 Mac 上的 Intel…]]></description><link>https://lizhi1026.cc/2018/02-27/Mach-O</link><guid isPermaLink="false">https://lizhi1026.cc/2018/02-27/Mach-O</guid><pubDate>Tue, 27 Feb 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;我们用 Xcode 构建一个程序的过程中，会把源文件 (&lt;code class=&quot;language-text&quot;&gt;.m&lt;/code&gt; 和 &lt;code class=&quot;language-text&quot;&gt;.h&lt;/code&gt;) 文件转换为一个可执行文件。这个可执行文件中包含的字节码会将被 CPU (iOS 设备中的 ARM 处理器或 Mac 上的 Intel 处理器) 执行。&lt;/p&gt;
+&lt;p&gt;本文将介绍一下上面的过程中编译器都做了些什么，同时深入看看可执行文件内部是怎样的。实际上里面的东西要比我们第一眼看到的多得多。&lt;/p&gt;
+&lt;p&gt;这里我们把 Xcode 放一边，将使用命令行工具 (command-line tools)。当我们用 Xcode 构建一个程序时，Xcode 只是简单的调用了一系列的工具而已。Florian 对工具调用是如何工作的做了更详细的讨论。本文我们就直接调用这些工具，并看看它们都做了些什么。&lt;/p&gt;
+&lt;p&gt;真心希望本文能帮助你更好的理解 iOS 或 OS X 中的一个可执行文件 (也叫做 &lt;em&gt;Mach-O executable&lt;/em&gt;) 是如何执行，以及怎样组装起来的。&lt;/p&gt;
+&lt;h2 id=&quot;xcrun&quot;&gt;&lt;a href=&quot;#xcrun&quot; aria-label=&quot;xcrun permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;xcrun&lt;/h2&gt;
+&lt;p&gt;先来看一些基础性的东西：这里会大量使用一个名为 &lt;code class=&quot;language-text&quot;&gt;xcrun&lt;/code&gt; 的命令行工具。看起来可能会有点奇怪，不过它非常的出色。这个小工具用来调用别的一些工具。原先，我们在终端执行如下命令：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;% clang -v&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;现在我们用下面的命令代替：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;% xcrun clang -v&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;在这里 &lt;code class=&quot;language-text&quot;&gt;xcrun&lt;/code&gt; 做的是定位到 &lt;code class=&quot;language-text&quot;&gt;clang&lt;/code&gt;，并执行它，附带输入 &lt;code class=&quot;language-text&quot;&gt;clang&lt;/code&gt; 后面的参数。&lt;/p&gt;
+&lt;p&gt;我们为什么要这样做呢？看起来没有什么意义。不过 &lt;code class=&quot;language-text&quot;&gt;xcode&lt;/code&gt; 允许我们: (1) 使用多个版本的 Xcode，以及使用某个特定 Xcode 版本中的工具。(2) 针对某个特定的 SDK (software development kit) 使用不同的工具。如果你有 Xcode 4.5 和 Xcode 5，通过 &lt;code class=&quot;language-text&quot;&gt;xcode-select&lt;/code&gt; 和 &lt;code class=&quot;language-text&quot;&gt;xcrun&lt;/code&gt; 可以选择使用 Xcode 5 中 iOS SDK 的工具，或者 Xcode 4.5 中的 OS X 工具。在许多其它平台中，这是不可能做到的。查阅 &lt;code class=&quot;language-text&quot;&gt;xcrun&lt;/code&gt; 和 &lt;code class=&quot;language-text&quot;&gt;xcode-select&lt;/code&gt; 的主页内容可以了解到详细内容。不用安装 &lt;em&gt;Command Line Tools&lt;/em&gt;，就能使用命令行中的开发者工具。&lt;/p&gt;
+&lt;h2 id=&quot;不使用-ide-的-hello-world&quot;&gt;&lt;a href=&quot;#%E4%B8%8D%E4%BD%BF%E7%94%A8-ide-%E7%9A%84-hello-world&quot; aria-label=&quot;不使用 ide 的 hello world permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;不使用 IDE 的 Hello World&lt;/h2&gt;
+&lt;p&gt;回到终端 (Terminal)，创建一个包含一个 C 文件的文件夹：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;% mkdir ~/Desktop/objcio-command-line
+% cd !$
+% touch helloworld.c&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;接着使用你喜欢的文本编辑器来编辑这个文件 -- 例如 TextEdit.app：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;% open -e helloworld.c&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;输入如下代码：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;#include &amp;lt;stdio.h&amp;gt;
+int main(int argc, char *argv[])
+{
+    printf(&amp;quot;Hello World!\n&amp;quot;);
+    return 0;
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;保存并返回到终端，然后运行如下命令：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;% xcrun clang helloworld.c
+% ./a.out&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;现在你能够在终端上看到熟悉的 &lt;code class=&quot;language-text&quot;&gt;Hello World!&lt;/code&gt;。这里我们编译并运行 C 程序，全程没有使用 IDE。深呼吸一下，高兴高兴。&lt;/p&gt;
+&lt;p&gt;上面我们到底做了些什么呢？我们将 &lt;code class=&quot;language-text&quot;&gt;helloworld.c&lt;/code&gt; 编译为一个名为 &lt;code class=&quot;language-text&quot;&gt;a.out&lt;/code&gt; 的 Mach-O 二进制文件。注意，如果我们没有指定名字，那么编译器会默认的将其指定为 a.out。&lt;/p&gt;
+&lt;p&gt;这个二进制文件是如何生成的呢？实际上有许多内容需要观察和理解。我们先看看编译器吧。&lt;/p&gt;
+&lt;h3 id=&quot;hello-world-和编译器&quot;&gt;&lt;a href=&quot;#hello-world-%E5%92%8C%E7%BC%96%E8%AF%91%E5%99%A8&quot; aria-label=&quot;hello world 和编译器 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Hello World 和编译器&lt;/h3&gt;
+&lt;p&gt;时下 Xcode 中编译器默认选择使用 &lt;code class=&quot;language-text&quot;&gt;clang&lt;/code&gt;(读作 /klæŋ/)。&lt;a href=&quot;http://objccn.io/issue-6-2/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;关于编译器&lt;/a&gt;，Chris 写了更详细的文章。&lt;/p&gt;
+&lt;p&gt;简单的说，编译器处理过程中，将 &lt;code class=&quot;language-text&quot;&gt;helloworld.c&lt;/code&gt; 当做输入文件，并生成一个可执行文件 &lt;code class=&quot;language-text&quot;&gt;a.out&lt;/code&gt;。这个过程有多个步骤/阶段。我们需要做的就是正确的执行它们。&lt;/p&gt;
+&lt;h5 id=&quot;预处理&quot;&gt;&lt;a href=&quot;#%E9%A2%84%E5%A4%84%E7%90%86&quot; aria-label=&quot;预处理 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;预处理&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;符号化 (Tokenization)&lt;/li&gt;
+&lt;li&gt;宏定义的展开&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;#include&lt;/code&gt; 的展开&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&quot;语法和语义分析&quot;&gt;&lt;a href=&quot;#%E8%AF%AD%E6%B3%95%E5%92%8C%E8%AF%AD%E4%B9%89%E5%88%86%E6%9E%90&quot; aria-label=&quot;语法和语义分析 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;语法和语义分析&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;将符号化后的内容转化为一棵解析树 (parse tree)&lt;/li&gt;
+&lt;li&gt;解析树做语义分析&lt;/li&gt;
+&lt;li&gt;输出一棵&lt;em&gt;抽象语法树&lt;/em&gt;（Abstract Syntax Tree* (AST)）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&quot;生成代码和优化&quot;&gt;&lt;a href=&quot;#%E7%94%9F%E6%88%90%E4%BB%A3%E7%A0%81%E5%92%8C%E4%BC%98%E5%8C%96&quot; aria-label=&quot;生成代码和优化 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;生成代码和优化&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;将 AST 转换为更低级的中间码 (LLVM IR)&lt;/li&gt;
+&lt;li&gt;对生成的中间码做优化&lt;/li&gt;
+&lt;li&gt;生成特定目标代码&lt;/li&gt;
+&lt;li&gt;输出汇编代码&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&quot;汇编器&quot;&gt;&lt;a href=&quot;#%E6%B1%87%E7%BC%96%E5%99%A8&quot; aria-label=&quot;汇编器 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;汇编器&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;将汇编代码转换为目标对象文件。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&quot;链接器&quot;&gt;&lt;a href=&quot;#%E9%93%BE%E6%8E%A5%E5%99%A8&quot; aria-label=&quot;链接器 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;链接器&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;将多个目标对象文件合并为一个可执行文件 (或者一个动态库)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;我们来看一个关于这些步骤的简单的例子。&lt;/p&gt;
+&lt;h4 id=&quot;预处理-1&quot;&gt;&lt;a href=&quot;#%E9%A2%84%E5%A4%84%E7%90%86-1&quot; aria-label=&quot;预处理 1 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;预处理&lt;/h4&gt;
+&lt;p&gt;编译过程中，编译器首先要做的事情就是对文件做处理。预处理结束之后，如果我们停止编译过程，那么我们可以让编译器显示出预处理的一些内容：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;% xcrun clang -E helloworld.c&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;喔喔。 上面的命令输出的内容有 413 行。我们用编辑器打开这些内容，看看到底发生了什么：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;% xcrun clang -E helloworld.c | open -f&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;在顶部可以看到的许多行语句都是以 &lt;code class=&quot;language-text&quot;&gt;#&lt;/code&gt; 开头 (读作 &lt;code class=&quot;language-text&quot;&gt;hash&lt;/code&gt;)。这些被称为 &lt;em&gt;行标记&lt;/em&gt; 的语句告诉我们后面跟着的内容来自哪里。如果再回头看看 &lt;code class=&quot;language-text&quot;&gt;helloworld.c&lt;/code&gt; 文件，会发现第一行是：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;#include &amp;lt;stdio.h&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;我们都用过 &lt;code class=&quot;language-text&quot;&gt;#include&lt;/code&gt; 和 &lt;code class=&quot;language-text&quot;&gt;import&lt;/code&gt;。它们所做的事情是告诉预处理器将文件 &lt;code class=&quot;language-text&quot;&gt;stdio.h&lt;/code&gt; 中的内容插入到 &lt;code class=&quot;language-text&quot;&gt;#include&lt;/code&gt; 语句所在的位置。这是一个递归的过程：&lt;code class=&quot;language-text&quot;&gt;stdio.h&lt;/code&gt; 可能会包含其它的文件。&lt;/p&gt;
+&lt;p&gt;由于这样的递归插入过程很多，所以我们需要确保记住相关行号信息。为了确保无误，预处理器在发生变更的地方插入以 &lt;code class=&quot;language-text&quot;&gt;#&lt;/code&gt; 开头的 &lt;code class=&quot;language-text&quot;&gt;行标记&lt;/code&gt;。跟在 &lt;code class=&quot;language-text&quot;&gt;#&lt;/code&gt; 后面的数字是在源文件中的行号，而最后的数字是在新文件中的行号。回到刚才打开的文件，紧跟着的是系统头文件，或者是被看做为封装了 &lt;code class=&quot;language-text&quot;&gt;extern &amp;quot;C&amp;quot;&lt;/code&gt; 代码块的文件。&lt;/p&gt;
+&lt;p&gt;如果滚动到文件末尾，可以看到我们的 &lt;code class=&quot;language-text&quot;&gt;helloworld.c&lt;/code&gt; 代码：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# 2 &amp;quot;helloworld.c&amp;quot; 2
+int main(int argc, char *argv[])
+{
+ printf(&amp;quot;Hello World!\n&amp;quot;);
+ return 0;
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;在 Xcode 中，可以通过这样的方式查看任意文件的预处理结果：&lt;strong&gt;Product&lt;/strong&gt; -&gt; &lt;strong&gt;Perform Action&lt;/strong&gt; -&gt; &lt;strong&gt;Preprocess&lt;/strong&gt;。注意，编辑器加载预处理后的文件需要花费一些时间 -- 接近 100,000 行代码。&lt;/p&gt;
+&lt;h4 id=&quot;编译&quot;&gt;&lt;a href=&quot;#%E7%BC%96%E8%AF%91&quot; aria-label=&quot;编译 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;编译&lt;/h4&gt;
+&lt;p&gt;下一步：分析和代码生成。我们可以用下面的命令让 &lt;code class=&quot;language-text&quot;&gt;clang&lt;/code&gt; 输出汇编代码：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;% xcrun clang -S -o - helloworld.c | open -f&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;我们来看看输出的结果。首先会看到有一些以点 &lt;code class=&quot;language-text&quot;&gt;.&lt;/code&gt; 开头的行。这些就是汇编指令。其它的则是实际的 x86_64 汇编代码。最后是一些标记 (label)，与 C 语言中的类似。&lt;/p&gt;
+&lt;p&gt;我们先看看前三行：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;    .section    __TEXT,__text,regular,pure_instructions
+    .globl  _main
+    .align  4, 0x90&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;这三行是汇编指令，不是汇编代码。&lt;code class=&quot;language-text&quot;&gt;.section&lt;/code&gt; 指令指定接下来会执行哪一个段。&lt;/p&gt;
+&lt;p&gt;第二行的 &lt;code class=&quot;language-text&quot;&gt;.globl&lt;/code&gt; 指令说明 &lt;code class=&quot;language-text&quot;&gt;_main&lt;/code&gt; 是一个外部符号。这就是我们的 &lt;code class=&quot;language-text&quot;&gt;main()&lt;/code&gt; 函数。这个函数对于二进制文件外部来说是可见的，因为系统要调用它来运行可执行文件。&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;.align&lt;/code&gt; 指令指出了后面代码的对齐方式。在我们的代码中，后面的代码会按照 16(2^4) 字节对齐，如果需要的话，用 &lt;code class=&quot;language-text&quot;&gt;0x90&lt;/code&gt; 补齐。&lt;/p&gt;
+&lt;p&gt;接下来是 main 函数的头部：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;_main:                                  ## @main
+    .cfi_startproc
+## BB#0:
+    pushq   %rbp
+Ltmp2:
+    .cfi_def_cfa_offset 16
+Ltmp3:
+    .cfi_offset %rbp, -16
+    movq    %rsp, %rbp
+Ltmp4:
+    .cfi_def_cfa_register %rbp
+    subq    $32, %rsp&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;上面的代码中有一些与 C 标记工作机制一样的一些标记。它们是某些特定部分的汇编代码的符号链接。首先是 &lt;code class=&quot;language-text&quot;&gt;_main&lt;/code&gt; 函数真正开始的地址。这个符号会被 export。二进制文件会有这个位置的一个引用。&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;.cfi_startproc&lt;/code&gt; 指令通常用于函数的开始处。CFI 是调用帧信息 (Call Frame Information) 的缩写。这个调用 &lt;code class=&quot;language-text&quot;&gt;帧&lt;/code&gt; 以松散的方式对应着一个函数。当开发者使用 debugger 和 &lt;em&gt;step in&lt;/em&gt; 或 &lt;em&gt;step out&lt;/em&gt; 时，实际上是 stepping in/out 一个调用帧。在 C 代码中，函数有自己的调用帧，当然，别的一些东西也会有类似的调用帧。&lt;code class=&quot;language-text&quot;&gt;.cfi_startproc&lt;/code&gt; 指令给了函数一个 &lt;code class=&quot;language-text&quot;&gt;.eh_frame&lt;/code&gt; 入口，这个入口包含了一些调用栈的信息（抛出异常时也是用其来展开调用帧堆栈的）。这个指令也会发送一些和具体平台相关的指令给 CFI。它与后面的 &lt;code class=&quot;language-text&quot;&gt;.cfi_endproc&lt;/code&gt; 相匹配，以此标记出 &lt;code class=&quot;language-text&quot;&gt;main()&lt;/code&gt; 函数结束的地方。&lt;/p&gt;
+&lt;p&gt;接着是另外一个 label &lt;code class=&quot;language-text&quot;&gt;## BB#0:&lt;/code&gt;。然后，终于，看到第一句汇编代码：&lt;code class=&quot;language-text&quot;&gt;pushq %rbp&lt;/code&gt;。从这里开始事情开始变得有趣。在 OS X上，我们会有 X86_64 的代码，对于这种架构，有一个东西叫做 &lt;em&gt;ABI&lt;/em&gt; ( 应用二进制接口 application binary interface)，ABI 指定了函数调用是如何在汇编代码层面上工作的。在函数调用期间，ABI 会让 &lt;code class=&quot;language-text&quot;&gt;rbp&lt;/code&gt; 寄存器 (基础指针寄存器 base pointer register) 被保护起来。当函数调用返回时，确保 &lt;code class=&quot;language-text&quot;&gt;rbp&lt;/code&gt; 寄存器的值跟之前一样，这是属于 main 函数的职责。&lt;code class=&quot;language-text&quot;&gt;pushq %rbp&lt;/code&gt; 将 &lt;code class=&quot;language-text&quot;&gt;rbp&lt;/code&gt; 的值 push 到栈中，以便我们以后将其 pop 出来。&lt;/p&gt;
+&lt;p&gt;接下来是两个 CFI 指令：&lt;code class=&quot;language-text&quot;&gt;.cfi_def_cfa_offset 16&lt;/code&gt; 和 &lt;code class=&quot;language-text&quot;&gt;.cfi_offset %rbp, -16&lt;/code&gt;。这将会输出一些关于生成调用堆栈展开和调试的信息。我们改变了堆栈和基础指针，而这两个指令可以告诉编译器它们都在哪儿，或者更确切的，它们可以确保之后调试器要使用这些信息时，能找到对应的东西。&lt;/p&gt;
+&lt;p&gt;接下来，&lt;code class=&quot;language-text&quot;&gt;movq %rsp, %rbp&lt;/code&gt; 将把局部变量放置到栈上。&lt;code class=&quot;language-text&quot;&gt;subq $32, %rsp&lt;/code&gt; 将栈指针移动 32 个字节，也就是函数会调用的位置。我们先将老的栈指针存储到 &lt;code class=&quot;language-text&quot;&gt;rbp&lt;/code&gt; 中，然后将此作为我们局部变量的基址，接着我们更新堆栈指针到我们将会使用的位置。&lt;/p&gt;
+&lt;p&gt;之后，我们调用了 &lt;code class=&quot;language-text&quot;&gt;printf()&lt;/code&gt;：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;leaq    L_.str(%rip), %rax
+movl    $0, -4(%rbp)
+movl    %edi, -8(%rbp)
+movq    %rsi, -16(%rbp)
+movq    %rax, %rdi
+movb    $0, %al
+callq   _printf&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;首先，&lt;code class=&quot;language-text&quot;&gt;leaq&lt;/code&gt; 会将 &lt;code class=&quot;language-text&quot;&gt;L_.str&lt;/code&gt; 的指针加载到 &lt;code class=&quot;language-text&quot;&gt;rax&lt;/code&gt; 寄存器中。留意 &lt;code class=&quot;language-text&quot;&gt;L_.str&lt;/code&gt; 标记在后面的汇编代码中是如何定义的。它就是 C 字符串&lt;code class=&quot;language-text&quot;&gt;&amp;quot;Hello World!\n&amp;quot;&lt;/code&gt;。 &lt;code class=&quot;language-text&quot;&gt;edi&lt;/code&gt; 和 &lt;code class=&quot;language-text&quot;&gt;rsi&lt;/code&gt; 寄存器保存了函数的第一个和第二个参数。由于我们会调用别的函数，所以首先需要将它们的当前值保存起来。这就是为什么我们使用刚刚存储的 &lt;code class=&quot;language-text&quot;&gt;rbp&lt;/code&gt; 偏移32个字节的原因。第一个 32 字节的值是 0，之后的 32 字节的值是 &lt;code class=&quot;language-text&quot;&gt;edi&lt;/code&gt; 寄存器的值 (存储了 &lt;code class=&quot;language-text&quot;&gt;argc&lt;/code&gt;)。然后是 64 字节 的值：&lt;code class=&quot;language-text&quot;&gt;rsi&lt;/code&gt; 寄存器的值 (存储了 &lt;code class=&quot;language-text&quot;&gt;argv&lt;/code&gt;)。我们在后面并没有使用这些值，但是编译器在没有经过优化处理的时候，它们还是会被存下来。&lt;/p&gt;
+&lt;p&gt;现在我们把第一个函数 &lt;code class=&quot;language-text&quot;&gt;printf()&lt;/code&gt; 的参数 &lt;code class=&quot;language-text&quot;&gt;rax&lt;/code&gt; 设置给第一个函数参数寄存器 &lt;code class=&quot;language-text&quot;&gt;edi&lt;/code&gt; 中。&lt;code class=&quot;language-text&quot;&gt;printf()&lt;/code&gt; 是一个可变参数的函数。ABI 调用约定指定，将会把使用来存储参数的寄存器数量存储在寄存器 &lt;code class=&quot;language-text&quot;&gt;al&lt;/code&gt; 中。在这里是 0。最后 &lt;code class=&quot;language-text&quot;&gt;callq&lt;/code&gt; 调用了 &lt;code class=&quot;language-text&quot;&gt;printf()&lt;/code&gt; 函数。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;    movl    $0, %ecx
+    movl    %eax, -20(%rbp)         ## 4-byte Spill
+    movl    %ecx, %eax&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;上面的代码将 &lt;code class=&quot;language-text&quot;&gt;ecx&lt;/code&gt; 寄存器设置为 0，并把 &lt;code class=&quot;language-text&quot;&gt;eax&lt;/code&gt; 寄存器的值保存至栈中，然后将 &lt;code class=&quot;language-text&quot;&gt;ect&lt;/code&gt; 中的 0 拷贝至 &lt;code class=&quot;language-text&quot;&gt;eax&lt;/code&gt; 中。ABI 规定 &lt;code class=&quot;language-text&quot;&gt;eax&lt;/code&gt; 将用来保存一个函数的返回值，或者此处 &lt;code class=&quot;language-text&quot;&gt;main()&lt;/code&gt; 函数的返回值 0：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;    addq    $32, %rsp
+    popq    %rbp
+    ret
+    .cfi_endproc&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;函数执行完成后，将恢复堆栈指针 —— 利用上面的指令 &lt;code class=&quot;language-text&quot;&gt;subq $32, %rsp&lt;/code&gt; 把堆栈指针 &lt;code class=&quot;language-text&quot;&gt;rsp&lt;/code&gt; 上移 32 字节。最后，把之前存储至 &lt;code class=&quot;language-text&quot;&gt;rbp&lt;/code&gt; 中的值从栈中弹出来，然后调用 &lt;code class=&quot;language-text&quot;&gt;ret&lt;/code&gt; 返回调用者， &lt;code class=&quot;language-text&quot;&gt;ret&lt;/code&gt; 会读取出栈的返回地址。 &lt;code class=&quot;language-text&quot;&gt;.cfi_endproc&lt;/code&gt; 平衡了 &lt;code class=&quot;language-text&quot;&gt;.cfi_startproc&lt;/code&gt; 指令。&lt;/p&gt;
+&lt;p&gt;接下来是输出字符串 &lt;code class=&quot;language-text&quot;&gt;&amp;quot;Hello World!\n&amp;quot;&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;    .section    __TEXT,__cstring,cstring_literals
+L_.str:                                 ## @.str
+    .asciz   &amp;quot;Hello World!\n&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;同样，&lt;code class=&quot;language-text&quot;&gt;.section&lt;/code&gt; 指令指出下面将要进入的段。&lt;code class=&quot;language-text&quot;&gt;L_.str&lt;/code&gt; 标记运行在实际的代码中获取到字符串的一个指针。&lt;code class=&quot;language-text&quot;&gt;.asciz&lt;/code&gt; 指令告诉编译器输出一个以 ‘\0’ (null) 结尾的字符串。&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;__TEXT __cstring&lt;/code&gt; 开启了一个新的段。这个段中包含了 C 字符串：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;L_.str:                                 ## @.str
+    .asciz     &amp;quot;Hello World!\n&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;上面两行代码创建了一个 null 结尾的字符串。注意 &lt;code class=&quot;language-text&quot;&gt;L_.str&lt;/code&gt; 是如何命名，之后会通过它来访问字符串。&lt;/p&gt;
+&lt;p&gt;最后的 &lt;code class=&quot;language-text&quot;&gt;.subsections_via_symbols&lt;/code&gt; 指令是静态链接编辑器使用的。&lt;/p&gt;
+&lt;p&gt;更过关于汇编指令的资料可以在 苹果的 &lt;a href=&quot;https://developer.apple.com/library/mac/documentation/DeveloperTools/Reference/Assembler/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;OS X Assembler Reference&lt;/a&gt; 中看到。AMD 64 网站有关于 &lt;a href=&quot;http://www.x86-64.org/documentation/abi.pdf&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;ABI for x86 的文档&lt;/a&gt;。另外还有 &lt;a href=&quot;http://www.x86-64.org/documentation/assembly.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Gentle Introduction to x86-64 Assembly&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;重申一下，通过下面的选择操作，我们可以用 Xcode 查看任意文件的汇编输出结果：&lt;strong&gt;Product&lt;/strong&gt; -&gt; &lt;strong&gt;Perform Action&lt;/strong&gt; -&gt; &lt;strong&gt;Assemble&lt;/strong&gt;.&lt;/p&gt;
+&lt;h4 id=&quot;汇编器-1&quot;&gt;&lt;a href=&quot;#%E6%B1%87%E7%BC%96%E5%99%A8-1&quot; aria-label=&quot;汇编器 1 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;汇编器&lt;/h4&gt;
+&lt;p&gt;汇编器将可读的汇编代码转换为机器代码。它会创建一个目标对象文件，一般简称为 &lt;em&gt;对象文件&lt;/em&gt;。这些文件以 &lt;code class=&quot;language-text&quot;&gt;.o&lt;/code&gt; 结尾。如果用 Xcode 构建应用程序，可以在工程的 &lt;em&gt;derived data&lt;/em&gt; 目录中，&lt;code class=&quot;language-text&quot;&gt;Objects-normal&lt;/code&gt; 文件夹下找到这些文件。&lt;/p&gt;
+&lt;h4 id=&quot;链接器-1&quot;&gt;&lt;a href=&quot;#%E9%93%BE%E6%8E%A5%E5%99%A8-1&quot; aria-label=&quot;链接器 1 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;链接器&lt;/h4&gt;
+&lt;p&gt;稍后我们会对链接器做更详细的介绍。这里简单介绍一下：链接器解决了目标文件和库之间的链接。什么意思呢？还记得下面的语句吗：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;callq   _printf&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;printf()&lt;/code&gt; 是 &lt;em&gt;libc&lt;/em&gt; 库中的一个函数。无论怎样，最后的可执行文件需要能需要知道 &lt;code class=&quot;language-text&quot;&gt;printf()&lt;/code&gt; 在内存中的具体位置：例如，&lt;code class=&quot;language-text&quot;&gt;_printf&lt;/code&gt; 的地址符号是什么。链接器会读取所有的目标文件 (此处只有一个) 和库 (此处是 &lt;em&gt;libc&lt;/em&gt;)，并解决所有未知符号 (此处是 &lt;code class=&quot;language-text&quot;&gt;_printf&lt;/code&gt;) 的问题。然后将它们编码进最后的可执行文件中  （可以在 &lt;em&gt;libc&lt;/em&gt; 中找到符号 &lt;code class=&quot;language-text&quot;&gt;_printf&lt;/code&gt;），接着链接器会输出可以运行的执行文件：&lt;code class=&quot;language-text&quot;&gt;a.out&lt;/code&gt;。&lt;/p&gt;
+&lt;h2 id=&quot;section&quot;&gt;&lt;a href=&quot;#section&quot; aria-label=&quot;section permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Section&lt;/h2&gt;
+&lt;p&gt;就像我们上面提到的一样，这里有些东西叫做 section。一个可执行文件包含多个段，也就是多个 section。可执行文件不同的部分将加载进不同的 section，并且每个 section 会转换进某个 segment 里。这个概念对于所有的可执行文件都是成立的。&lt;/p&gt;
+&lt;p&gt;我们来看看 &lt;code class=&quot;language-text&quot;&gt;a.out&lt;/code&gt; 二进制中的 section。我们可以使用 &lt;code class=&quot;language-text&quot;&gt;size&lt;/code&gt; 工具来观察：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;% xcrun size -x -l -m a.out 
+Segment __PAGEZERO: 0x100000000 (vmaddr 0x0 fileoff 0)
+Segment __TEXT: 0x1000 (vmaddr 0x100000000 fileoff 0)
+    Section __text: 0x37 (addr 0x100000f30 offset 3888)
+    Section __stubs: 0x6 (addr 0x100000f68 offset 3944)
+    Section __stub_helper: 0x1a (addr 0x100000f70 offset 3952)
+    Section __cstring: 0xe (addr 0x100000f8a offset 3978)
+    Section __unwind_info: 0x48 (addr 0x100000f98 offset 3992)
+    Section __eh_frame: 0x18 (addr 0x100000fe0 offset 4064)
+    total 0xc5
+Segment __DATA: 0x1000 (vmaddr 0x100001000 fileoff 4096)
+    Section __nl_symbol_ptr: 0x10 (addr 0x100001000 offset 4096)
+    Section __la_symbol_ptr: 0x8 (addr 0x100001010 offset 4112)
+    total 0x18
+Segment __LINKEDIT: 0x1000 (vmaddr 0x100002000 fileoff 8192)
+total 0x100003000&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;如上代码所示，我们的 &lt;code class=&quot;language-text&quot;&gt;a.out&lt;/code&gt; 文件有 4 个 segment。有些 segment 中有多个 section。&lt;/p&gt;
+&lt;p&gt;当运行一个可执行文件时，虚拟内存 (VM - virtual memory) 系统将 segment 映射到进程的地址空间上。映射完全不同于我们一般的认识，如果你对虚拟内存系统不熟悉，可以简单的想象虚拟内存系统将整个可执行文件加载进内存 -- 虽然在实际上不是这样的。VM 使用了一些技巧来避免全部加载。&lt;/p&gt;
+&lt;p&gt;当虚拟内存系统进行映射时，segment 和 section 会以不同的参数和权限被映射。&lt;/p&gt;
+&lt;p&gt;上面的代码中，&lt;code class=&quot;language-text&quot;&gt;__TEXT&lt;/code&gt; segment 包含了被执行的代码。它被以只读和可执行的方式映射。进程被允许执行这些代码，但是不能修改。这些代码也不能对自己做出修改，因此这些被映射的页从来不会被改变。&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;__DATA&lt;/code&gt; segment 以可读写和不可执行的方式映射。它包含了将会被更改的数据。&lt;/p&gt;
+&lt;p&gt;第一个 segment 是 &lt;code class=&quot;language-text&quot;&gt;__PAGEZERO&lt;/code&gt;。它的大小为 4GB。这 4GB 并不是文件的真实大小，但是规定了进程地址空间的前 4GB 被映射为 不可执行、不可写和不可读。这就是为什么当读写一个 &lt;code class=&quot;language-text&quot;&gt;NULL&lt;/code&gt; 指针或更小的值时会得到一个 &lt;code class=&quot;language-text&quot;&gt;EXC_BAD_ACCESS&lt;/code&gt; 错误。这是操作系统在尝试防止&lt;a href=&quot;http://www.xkcd.com/371/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;引起系统崩溃&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;在 segment中，一般都会有多个 section。它们包含了可执行文件的不同部分。在 &lt;code class=&quot;language-text&quot;&gt;__TEXT&lt;/code&gt; segment 中，&lt;code class=&quot;language-text&quot;&gt;__text&lt;/code&gt; section 包含了编译所得到的机器码。&lt;code class=&quot;language-text&quot;&gt;__stubs&lt;/code&gt; 和 &lt;code class=&quot;language-text&quot;&gt;__stub_helper&lt;/code&gt; 是给动态链接器 (&lt;code class=&quot;language-text&quot;&gt;dyld&lt;/code&gt;) 使用的。通过这两个 section，在动态链接代码中，可以允许延迟链接。&lt;code class=&quot;language-text&quot;&gt;__const&lt;/code&gt; (在我们的代码中没有) 是常量，不可变的，就像 &lt;code class=&quot;language-text&quot;&gt;__cstring&lt;/code&gt; (包含了可执行文件中的字符串常量 -- 在源码中被双引号包含的字符串) 常量一样。&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;__DATA&lt;/code&gt; segment 中包含了可读写数据。在我们的程序中只有 &lt;code class=&quot;language-text&quot;&gt;__nl_symbol_ptr&lt;/code&gt; 和 &lt;code class=&quot;language-text&quot;&gt;__la_symbol_ptr&lt;/code&gt;，它们分别是 &lt;em&gt;non-lazy&lt;/em&gt; 和 &lt;em&gt;lazy&lt;/em&gt; 符号指针。延迟符号指针用于可执行文件中调用未定义的函数，例如不包含在可执行文件中的函数，它们将会延迟加载。而针对非延迟符号指针，当可执行文件被加载同时，也会被加载。&lt;/p&gt;
+&lt;p&gt;在 &lt;code class=&quot;language-text&quot;&gt;_DATA&lt;/code&gt; segment 中的其它常见 section 包括 &lt;code class=&quot;language-text&quot;&gt;__const&lt;/code&gt;，在这里面会包含一些需要重定向的常量数据。例如 &lt;code class=&quot;language-text&quot;&gt;char * const p = &amp;quot;foo&amp;quot;;&lt;/code&gt; -- &lt;code class=&quot;language-text&quot;&gt;p&lt;/code&gt; 指针指向的数据是可变的。&lt;code class=&quot;language-text&quot;&gt;__bss&lt;/code&gt; section 没有被初始化的静态变量，例如 &lt;code class=&quot;language-text&quot;&gt;static int a;&lt;/code&gt; -- ANSI C 标准规定静态变量必须设置为 0。并且在运行时静态变量的值是可以修改的。&lt;code class=&quot;language-text&quot;&gt;__common&lt;/code&gt; section 包含未初始化的外部全局变量，跟 &lt;code class=&quot;language-text&quot;&gt;static&lt;/code&gt; 变量类似。例如在函数外面定义的 &lt;code class=&quot;language-text&quot;&gt;int a;&lt;/code&gt;。最后，&lt;code class=&quot;language-text&quot;&gt;__dyld&lt;/code&gt; 是一个 section 占位符，被用于动态链接器。&lt;/p&gt;
+&lt;p&gt;苹果的 &lt;a href=&quot;https://developer.apple.com/library/mac/documentation/DeveloperTools/Reference/Assembler/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;OS X Assembler Reference&lt;/a&gt; 文档有更多关于 section 类型的介绍。&lt;/p&gt;
+&lt;h3 id=&quot;section-中的内容&quot;&gt;&lt;a href=&quot;#section-%E4%B8%AD%E7%9A%84%E5%86%85%E5%AE%B9&quot; aria-label=&quot;section 中的内容 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Section 中的内容&lt;/h3&gt;
+&lt;p&gt;下面，我们用 &lt;code class=&quot;language-text&quot;&gt;otool(1)&lt;/code&gt; 来观察一个 section 中的内容：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;% xcrun otool -s __TEXT __text a.out 
+a.out:
+(__TEXT,__text) section
+0000000100000f30 55 48 89 e5 48 83 ec 20 48 8d 05 4b 00 00 00 c7 
+0000000100000f40 45 fc 00 00 00 00 89 7d f8 48 89 75 f0 48 89 c7 
+0000000100000f50 b0 00 e8 11 00 00 00 b9 00 00 00 00 89 45 ec 89 
+0000000100000f60 c8 48 83 c4 20 5d c3 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;上面是我们 app 中的代码。由于 &lt;code class=&quot;language-text&quot;&gt;-s __TEXT __text&lt;/code&gt; 很常见，&lt;code class=&quot;language-text&quot;&gt;otool&lt;/code&gt; 对其设置了一个缩写 &lt;code class=&quot;language-text&quot;&gt;-t&lt;/code&gt; 。我们还可以通过添加 &lt;code class=&quot;language-text&quot;&gt;-v&lt;/code&gt; 来查看反汇编代码：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;% xcrun otool -v -t a.out
+a.out:
+(__TEXT,__text) section
+_main:
+0000000100000f30    pushq   %rbp
+0000000100000f31    movq    %rsp, %rbp
+0000000100000f34    subq    $0x20, %rsp
+0000000100000f38    leaq    0x4b(%rip), %rax
+0000000100000f3f    movl    $0x0, 0xfffffffffffffffc(%rbp)
+0000000100000f46    movl    %edi, 0xfffffffffffffff8(%rbp)
+0000000100000f49    movq    %rsi, 0xfffffffffffffff0(%rbp)
+0000000100000f4d    movq    %rax, %rdi
+0000000100000f50    movb    $0x0, %al
+0000000100000f52    callq   0x100000f68
+0000000100000f57    movl    $0x0, %ecx
+0000000100000f5c    movl    %eax, 0xffffffffffffffec(%rbp)
+0000000100000f5f    movl    %ecx, %eax
+0000000100000f61    addq    $0x20, %rsp
+0000000100000f65    popq    %rbp
+0000000100000f66    ret&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;上面的内容是一样的，只不过以反汇编形式显示出来。你应该感觉很熟悉，这就是我们在前面编译时候的代码。唯一的不同就是，在这里我们没有任何的汇编指令在里面。这是纯粹的二进制执行文件。&lt;/p&gt;
+&lt;p&gt;同样的方法，我们可以查看别的 section：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;% xcrun otool -v -s __TEXT __cstring a.out
+a.out:
+Contents of (__TEXT,__cstring) section
+0x0000000100000f8a  Hello World!\n&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;或:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;% xcrun otool -v -s __TEXT __eh_frame a.out 
+a.out:
+Contents of (__TEXT,__eh_frame) section
+0000000100000fe0    14 00 00 00 00 00 00 00 01 7a 52 00 01 78 10 01 
+0000000100000ff0    10 0c 07 08 90 01 00 00 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4 id=&quot;性能上需要注意的事项&quot;&gt;&lt;a href=&quot;#%E6%80%A7%E8%83%BD%E4%B8%8A%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E4%BA%8B%E9%A1%B9&quot; aria-label=&quot;性能上需要注意的事项 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;性能上需要注意的事项&lt;/h4&gt;
+&lt;p&gt;从侧面来讲，&lt;code class=&quot;language-text&quot;&gt;__DATA&lt;/code&gt; 和 &lt;code class=&quot;language-text&quot;&gt;__TEXT&lt;/code&gt; segment对性能会有所影响。如果你有一个很大的二进制文件，你可能得去看看苹果的文档：&lt;a href=&quot;https://developer.apple.com/library/mac/documentation/Performance/Conceptual/CodeFootprint/Articles/MachOOverview.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;关于代码大小性能指南&lt;/a&gt;。将数据移至 &lt;code class=&quot;language-text&quot;&gt;__TEXT&lt;/code&gt; 是个不错的选择，因为这些页从来不会被改变。&lt;/p&gt;
+&lt;h4 id=&quot;任意的片段&quot;&gt;&lt;a href=&quot;#%E4%BB%BB%E6%84%8F%E7%9A%84%E7%89%87%E6%AE%B5&quot; aria-label=&quot;任意的片段 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;任意的片段&lt;/h4&gt;
+&lt;p&gt;使用链接符号 &lt;code class=&quot;language-text&quot;&gt;-sectcreate&lt;/code&gt; 我们可以给可执行文件以 section 的方式添加任意的数据。这就是如何将一个 Info.plist 文件添加到一个独立的可执行文件中的方法。Info.plist 文件中的数据需要放入到 &lt;code class=&quot;language-text&quot;&gt;__TEXT&lt;/code&gt; segment 里面的一个 &lt;code class=&quot;language-text&quot;&gt;__info_plist&lt;/code&gt; section 中。可以将 &lt;code class=&quot;language-text&quot;&gt;-sectcreate segname sectname file&lt;/code&gt; 传递给链接器（通过将下面的内容传递给 clang）：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;-Wl,-sectcreate,__TEXT,__info_plist,path/to/Info.plist&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;同样，&lt;code class=&quot;language-text&quot;&gt;-sectalign&lt;/code&gt; 规定了对其方式。如果你添加的是一个全新的 segment，那么需要通过 &lt;code class=&quot;language-text&quot;&gt;-segprot&lt;/code&gt; 来规定 segment 的保护方式 (读/写/可执行)。这些所有内容在链接器的帮助文档中都有，例如 &lt;code class=&quot;language-text&quot;&gt;ld(1)&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;我们可以利用定义在 &lt;code class=&quot;language-text&quot;&gt;/usr/include/mach-o/getsect.h&lt;/code&gt; 中的函数 &lt;code class=&quot;language-text&quot;&gt;getsectdata()&lt;/code&gt; 得到 section，例如 &lt;code class=&quot;language-text&quot;&gt;getsectdata()&lt;/code&gt; 可以得到指向 section 数据的一个指针，并返回相关 section 的长度。&lt;/p&gt;
+&lt;h3 id=&quot;mach-o&quot;&gt;&lt;a href=&quot;#mach-o&quot; aria-label=&quot;mach o permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Mach-O&lt;/h3&gt;
+&lt;p&gt;在 OS X 和 iOS 中可执行文件的格式为 &lt;a href=&quot;https://en.wikipedia.org/wiki/Mach-o&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Mach-O&lt;/a&gt;：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;% file a.out 
+a.out: Mach-O 64-bit executable x86_64&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;对于 GUI 程序也是一样的：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;% file /Applications/Preview.app/Contents/MacOS/Preview 
+/Applications/Preview.app/Contents/MacOS/Preview: Mach-O 64-bit executable x86_64&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;关于 &lt;a href=&quot;https://developer.apple.com/library/mac/documentation/DeveloperTools/Conceptual/MachORuntime/index.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Mach-O 文件格式&lt;/a&gt; 苹果有详细的介绍。&lt;/p&gt;
+&lt;p&gt;我们可以使用 &lt;code class=&quot;language-text&quot;&gt;otool(1)&lt;/code&gt; 来观察可执行文件的头部 -- 规定了这个文件是什么，以及文件是如何被加载的。通过 &lt;code class=&quot;language-text&quot;&gt;-h&lt;/code&gt; 可以打印出头信息：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;% otool -v -h a.out           a.out:
+Mach header
+      magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+MH_MAGIC_64  X86_64        ALL LIB64     EXECUTE    16       1296   NOUNDEFS DYLDLINK TWOLEVEL PIE&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;cputype&lt;/code&gt; 和 &lt;code class=&quot;language-text&quot;&gt;cpusubtype&lt;/code&gt; 规定了这个可执行文件能够运行在哪些目标架构上。&lt;code class=&quot;language-text&quot;&gt;ncmds&lt;/code&gt; 和 &lt;code class=&quot;language-text&quot;&gt;sizeofcmds&lt;/code&gt; 是加载命令，可以通过 &lt;code class=&quot;language-text&quot;&gt;-l&lt;/code&gt; 来查看这两个加载命令：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;% otool -v -l a.out | open -f
+a.out:
+Load command 0
+      cmd LC_SEGMENT_64
+  cmdsize 72
+  segname __PAGEZERO
+   vmaddr 0x0000000000000000
+   vmsize 0x0000000100000000
+...&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;加载命令规定了文件的逻辑结构和文件在虚拟内存中的布局。&lt;code class=&quot;language-text&quot;&gt;otool&lt;/code&gt; 打印出的大多数信息都是源自这里的加载命令。看一下 &lt;code class=&quot;language-text&quot;&gt;Load command 1&lt;/code&gt; 部分，可以找到 &lt;code class=&quot;language-text&quot;&gt;initprot r-x&lt;/code&gt;，它规定了之前提到的保护方式：只读和可执行。&lt;/p&gt;
+&lt;p&gt;对于每一个 segment，以及segment 中的每个 section，加载命令规定了它们在内存中结束的位置，以及保护模式等。例如，下面是 &lt;code class=&quot;language-text&quot;&gt;__TEXT __text&lt;/code&gt; section 的输出内容：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Section
+  sectname __text
+   segname __TEXT
+      addr 0x0000000100000f30
+      size 0x0000000000000037
+    offset 3888
+     align 2^4 (16)
+    reloff 0
+    nreloc 0
+      type S_REGULAR
+attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+ reserved1 0
+ reserved2 0&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;上面的代码将在 0x100000f30 处结束。它在文件中的偏移量为 3888。如果看一下之前 &lt;code class=&quot;language-text&quot;&gt;xcrun otool -v -t a.out&lt;/code&gt; 输出的反汇编代码，可以发现代码实际位置在 0x100000f30。&lt;/p&gt;
+&lt;p&gt;我们同样看看在可执行文件中，动态链接库是如何使用的：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;% otool -v -L a.out
+a.out:
+    /usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 169.3.0)
+    time stamp 2 Thu Jan  1 01:00:02 1970&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;上面就是我们可执行文件将要找到 &lt;code class=&quot;language-text&quot;&gt;_printf&lt;/code&gt; 符号的地方。&lt;/p&gt;
+&lt;h2 id=&quot;一个更复杂的例子&quot;&gt;&lt;a href=&quot;#%E4%B8%80%E4%B8%AA%E6%9B%B4%E5%A4%8D%E6%9D%82%E7%9A%84%E4%BE%8B%E5%AD%90&quot; aria-label=&quot;一个更复杂的例子 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;一个更复杂的例子&lt;/h2&gt;
+&lt;p&gt;我们来看看有三个文件的复杂例子：&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Foo.h&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;#import &amp;lt;Foundation/Foundation.h&amp;gt;
+
+@interface Foo : NSObject
+
+- (void)run;
+
+@end&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Foo.m&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;#import &amp;quot;Foo.h&amp;quot;
+
+@implementation Foo
+
+- (void)run
+{
+    NSLog(@&amp;quot;%@&amp;quot;, NSFullUserName());
+}
+
+@end&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;helloworld.m&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;#import &amp;quot;Foo.h&amp;quot;
+
+int main(int argc, char *argv[])
+{
+    @autoreleasepool {
+        Foo *foo = [[Foo alloc] init];
+        [foo run];
+        return 0;
+    }
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;编译多个文件&quot;&gt;&lt;a href=&quot;#%E7%BC%96%E8%AF%91%E5%A4%9A%E4%B8%AA%E6%96%87%E4%BB%B6&quot; aria-label=&quot;编译多个文件 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;编译多个文件&lt;/h3&gt;
+&lt;p&gt;在上面的示例中，有多个源文件。所以我们需要让 clang 对输入每个文件生成对应的目标文件：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;% xcrun clang -c Foo.m
+% xcrun clang -c helloworld.m&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;我们从来不编译头文件。头文件的作用就是在被编译的实现文件中对代码做简单的共享。&lt;code class=&quot;language-text&quot;&gt;Foo.m&lt;/code&gt; 和 &lt;code class=&quot;language-text&quot;&gt;helloworld.m&lt;/code&gt; 都是通过 &lt;code class=&quot;language-text&quot;&gt;#import&lt;/code&gt; 语句将 &lt;code class=&quot;language-text&quot;&gt;Foo.h&lt;/code&gt; 文件中的内容添加到实现文件中的。&lt;/p&gt;
+&lt;p&gt;最终得到了两个目标文件：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;% file helloworld.o Foo.o
+helloworld.o: Mach-O 64-bit object x86_64
+Foo.o:        Mach-O 64-bit object x86_64&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;为了生成一个可执行文件，我们需要将这两个目标文件和 Foundation framework 链接起来：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;xcrun clang helloworld.o Foo.o -Wl,`xcrun --show-sdk-path`/System/Library/Frameworks/Foundation.framework/Foundation&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;现在可以运行我们的程序了:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;% ./a.out 
+2013-11-03 18:03:03.386 a.out[8302:303] Daniel Eggert&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;符号表和链接&quot;&gt;&lt;a href=&quot;#%E7%AC%A6%E5%8F%B7%E8%A1%A8%E5%92%8C%E9%93%BE%E6%8E%A5&quot; aria-label=&quot;符号表和链接 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;符号表和链接&lt;/h3&gt;
+&lt;p&gt;我们这个简单的程序是将两个目标文件合并到一起的。&lt;code class=&quot;language-text&quot;&gt;Foo.o&lt;/code&gt; 目标文件包含了 &lt;code class=&quot;language-text&quot;&gt;Foo&lt;/code&gt; 类的实现，而 &lt;code class=&quot;language-text&quot;&gt;helloworld.o&lt;/code&gt; 目标文件包含了 &lt;code class=&quot;language-text&quot;&gt;main()&lt;/code&gt; 函数，以及调用/使用 &lt;code class=&quot;language-text&quot;&gt;Foo&lt;/code&gt; 类。&lt;/p&gt;
+&lt;p&gt;另外，这两个目标对象都使用了 Foundation framework。&lt;code class=&quot;language-text&quot;&gt;helloworld.o&lt;/code&gt; 目标文件使用了它的 autorelease pool，并间接的使用了  &lt;code class=&quot;language-text&quot;&gt;libobjc.dylib&lt;/code&gt; 中的 Objective-C 运行时。它需要运行时函数来进行消息的调用。&lt;code class=&quot;language-text&quot;&gt;Foo.o&lt;/code&gt; 目标文件也有类似的原理。&lt;/p&gt;
+&lt;p&gt;所有的这些东西都被形象的称之为符号。我们可以把符号看成是一些在运行时将会变成指针的东西。虽然实际上并不是这样的。&lt;/p&gt;
+&lt;p&gt;每个函数、全局变量和类等都是通过符号的形式来定义和使用的。当我们将目标文件链接为一个可执行文件时，链接器 (&lt;code class=&quot;language-text&quot;&gt;ld(1)&lt;/code&gt;) 在目标文件盒动态库之间对符号做了解析处理。&lt;/p&gt;
+&lt;p&gt;可执行文件和目标文件有一个符号表，这个符号表规定了它们的符号。如果我们用 &lt;code class=&quot;language-text&quot;&gt;nm(1)&lt;/code&gt; 工具观察一下 &lt;code class=&quot;language-text&quot;&gt;helloworld.0&lt;/code&gt; 目标文件，可以看到如下内容：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;% xcrun nm -nm helloworld.o
+                 (undefined) external _OBJC_CLASS_$_Foo
+0000000000000000 (__TEXT,__text) external _main
+                 (undefined) external _objc_autoreleasePoolPop
+                 (undefined) external _objc_autoreleasePoolPush
+                 (undefined) external _objc_msgSend
+                 (undefined) external _objc_msgSend_fixup
+0000000000000088 (__TEXT,__objc_methname) non-external L_OBJC_METH_VAR_NAME_
+000000000000008e (__TEXT,__objc_methname) non-external L_OBJC_METH_VAR_NAME_1
+0000000000000093 (__TEXT,__objc_methname) non-external L_OBJC_METH_VAR_NAME_2
+00000000000000a0 (__DATA,__objc_msgrefs) weak private external l_objc_msgSend_fixup_alloc
+00000000000000e8 (__TEXT,__eh_frame) non-external EH_frame0
+0000000000000100 (__TEXT,__eh_frame) external _main.eh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;上面就是那个目标文件的所有符号。&lt;code class=&quot;language-text&quot;&gt;_OBJC_CLASS_$_Foo&lt;/code&gt; 是 &lt;code class=&quot;language-text&quot;&gt;Foo&lt;/code&gt; Objective-C 类的符号。该符号是 &lt;em&gt;undefined, external&lt;/em&gt; 。&lt;em&gt;External&lt;/em&gt; 的意思是指对于这个目标文件该类并不是私有的，相反，&lt;code class=&quot;language-text&quot;&gt;non-external&lt;/code&gt; 的符号则表示对于目标文件是私有的。我们的 &lt;code class=&quot;language-text&quot;&gt;helloworld.o&lt;/code&gt; 目标文件引用了类 &lt;code class=&quot;language-text&quot;&gt;Foo&lt;/code&gt;，不过这并没有实现它。因此符号表中将其标示为 undefined。&lt;/p&gt;
+&lt;p&gt;接下来是 &lt;code class=&quot;language-text&quot;&gt;_main&lt;/code&gt; 符号，它是表示 &lt;code class=&quot;language-text&quot;&gt;main()&lt;/code&gt; 函数，同样为 &lt;em&gt;external&lt;/em&gt;，这是因为该函数需要被调用，所以应该为可见的。由于在 &lt;code class=&quot;language-text&quot;&gt;helloworld.o&lt;/code&gt; 文件中实现了 这个 main 函数。这个函数地址位于 0处，并且需要转入到  &lt;code class=&quot;language-text&quot;&gt;__TEXT,__text&lt;/code&gt; section。接着是 4 个 Objective-C 运行时函数。它们同样是 undefined的，需要链接器进行符号解析。&lt;/p&gt;
+&lt;p&gt;如果我们转而观察 &lt;code class=&quot;language-text&quot;&gt;Foo.o&lt;/code&gt; 目标文件，可以看到如下输出：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;% xcrun nm -nm Foo.o
+0000000000000000 (__TEXT,__text) non-external -[Foo run]
+                 (undefined) external _NSFullUserName
+                 (undefined) external _NSLog
+                 (undefined) external _OBJC_CLASS_$_NSObject
+                 (undefined) external _OBJC_METACLASS_$_NSObject
+                 (undefined) external ___CFConstantStringClassReference
+                 (undefined) external __objc_empty_cache
+                 (undefined) external __objc_empty_vtable
+000000000000002f (__TEXT,__cstring) non-external l_.str
+0000000000000060 (__TEXT,__objc_classname) non-external L_OBJC_CLASS_NAME_
+0000000000000068 (__DATA,__objc_const) non-external l_OBJC_METACLASS_RO_$_Foo
+00000000000000b0 (__DATA,__objc_const) non-external l_OBJC_$_INSTANCE_METHODS_Foo
+00000000000000d0 (__DATA,__objc_const) non-external l_OBJC_CLASS_RO_$_Foo
+0000000000000118 (__DATA,__objc_data) external _OBJC_METACLASS_$_Foo
+0000000000000140 (__DATA,__objc_data) external _OBJC_CLASS_$_Foo
+0000000000000168 (__TEXT,__objc_methname) non-external L_OBJC_METH_VAR_NAME_
+000000000000016c (__TEXT,__objc_methtype) non-external L_OBJC_METH_VAR_TYPE_
+00000000000001a8 (__TEXT,__eh_frame) non-external EH_frame0
+00000000000001c0 (__TEXT,__eh_frame) non-external -[Foo run].eh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;第五行至最后一行显示了 &lt;code class=&quot;language-text&quot;&gt;_OBJC_CLASS_$_Foo&lt;/code&gt; 已经定义了，并且对于 &lt;code class=&quot;language-text&quot;&gt;Foo.o&lt;/code&gt; 是一个外部符号 -- ·Foo.o· 包含了这个类的实现。&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Foo.o&lt;/code&gt; 同样有 undefined 的符号。首先是使用了符号 &lt;code class=&quot;language-text&quot;&gt;NSFullUserName()&lt;/code&gt;，&lt;code class=&quot;language-text&quot;&gt;NSLog()&lt;/code&gt;和 &lt;code class=&quot;language-text&quot;&gt;NSObject&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;当我们将这两个目标文件和 Foundation framework (是一个动态库) 进行链接处理时，链接器会尝试解析所有的 undefined 符号。它可以解析  &lt;code class=&quot;language-text&quot;&gt;_OBJC_CLASS_$_Foo&lt;/code&gt;。另外，它将使用 Foundation framework。&lt;/p&gt;
+&lt;p&gt;当链接器通过动态库 (此处是 Foundation framework) 解析成功一个符号时，它会在最终的链接图中记录这个符号是通过动态库进行解析的。链接器会记录输出文件是依赖于哪个动态链接库，并连同其路径一起进行记录。在我们的例子中，&lt;code class=&quot;language-text&quot;&gt;_NSFullUserName&lt;/code&gt;，&lt;code class=&quot;language-text&quot;&gt;_NSLog&lt;/code&gt;，&lt;code class=&quot;language-text&quot;&gt;_OBJC_CLASS_$_NSObject&lt;/code&gt;，&lt;code class=&quot;language-text&quot;&gt;_objc_autoreleasePoolPop&lt;/code&gt; 等符号都是遵循这个过程。&lt;/p&gt;
+&lt;p&gt;我们可以看一下最终可执行文件 &lt;code class=&quot;language-text&quot;&gt;a.out&lt;/code&gt; 的符号表，并注意观察链接器是如何解析所有符号的：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;% xcrun nm -nm a.out 
+                 (undefined) external _NSFullUserName (from Foundation)
+                 (undefined) external _NSLog (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSObject (from CoreFoundation)
+                 (undefined) external _OBJC_METACLASS_$_NSObject (from CoreFoundation)
+                 (undefined) external ___CFConstantStringClassReference (from CoreFoundation)
+                 (undefined) external __objc_empty_cache (from libobjc)
+                 (undefined) external __objc_empty_vtable (from libobjc)
+                 (undefined) external _objc_autoreleasePoolPop (from libobjc)
+                 (undefined) external _objc_autoreleasePoolPush (from libobjc)
+                 (undefined) external _objc_msgSend (from libobjc)
+                 (undefined) external _objc_msgSend_fixup (from libobjc)
+                 (undefined) external dyld_stub_binder (from libSystem)
+0000000100000000 (__TEXT,__text) [referenced dynamically] external __mh_execute_header
+0000000100000e50 (__TEXT,__text) external _main
+0000000100000ed0 (__TEXT,__text) non-external -[Foo run]
+0000000100001128 (__DATA,__objc_data) external _OBJC_METACLASS_$_Foo
+0000000100001150 (__DATA,__objc_data) external _OBJC_CLASS_$_Foo&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;可以看到所有的 Foundation 和 Objective-C 运行时符号依旧是 undefined，不过现在的符号表中已经多了如何解析它们的信息，例如在哪个动态库中可以找到对应的符号。&lt;/p&gt;
+&lt;p&gt;可执行文件同样知道去哪里找到所需库：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;% xcrun otool -L a.out
+a.out:
+    /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation (compatibility version 300.0.0, current version 1056.0.0)
+    /usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1197.1.1)
+    /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation (compatibility version 150.0.0, current version 855.11.0)
+    /usr/lib/libobjc.A.dylib (compatibility version 1.0.0, current version 228.0.0)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;在运行时，动态链接器  &lt;code class=&quot;language-text&quot;&gt;dyld(1)&lt;/code&gt; 可以解析这些 undefined 符号，&lt;code class=&quot;language-text&quot;&gt;dyld&lt;/code&gt; 将会确定好 &lt;code class=&quot;language-text&quot;&gt;_NSFullUserName&lt;/code&gt; 等符号，并指向它们在 Foundation 中的实现等。&lt;/p&gt;
+&lt;p&gt;我们可以针对 Foundation 运行 &lt;code class=&quot;language-text&quot;&gt;nm(1)&lt;/code&gt;，并检查这些符号的定义情况： &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;% xcrun nm -nm `xcrun --show-sdk-path`/System/Library/Frameworks/Foundation.framework/Foundation | grep NSFullUserName
+0000000000007f3e (__TEXT,__text) external _NSFullUserName &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;动态链接编辑器&quot;&gt;&lt;a href=&quot;#%E5%8A%A8%E6%80%81%E9%93%BE%E6%8E%A5%E7%BC%96%E8%BE%91%E5%99%A8&quot; aria-label=&quot;动态链接编辑器 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;动态链接编辑器&lt;/h3&gt;
+&lt;p&gt;有一些环境变量对于 &lt;code class=&quot;language-text&quot;&gt;dyld&lt;/code&gt; 的输出信息非常有用。首先，如果设置了 &lt;code class=&quot;language-text&quot;&gt;DYLD_PRINT_LIBRARIES&lt;/code&gt;，那么 &lt;code class=&quot;language-text&quot;&gt;dyld&lt;/code&gt; 将会打印出什么库被加载了：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;% (export DYLD_PRINT_LIBRARIES=; ./a.out )
+dyld: loaded: /Users/deggert/Desktop/command_line/./a.out
+dyld: loaded: /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+dyld: loaded: /usr/lib/libSystem.B.dylib
+dyld: loaded: /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+dyld: loaded: /usr/lib/libobjc.A.dylib
+dyld: loaded: /usr/lib/libauto.dylib
+[...]&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;上面将会显示出在加载 Foundation 时，同时会加载的 70 个动态库。这是由于 Foundation 依赖于另外一些动态库。运行下面的命令：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;% xcrun otool -L `xcrun --show-sdk-path`/System/Library/Frameworks/Foundation.framework/Foundation&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;可以看到 Foundation 使用了 15 个动态库。&lt;/p&gt;
+&lt;h3 id=&quot;dyld-的共享缓存&quot;&gt;&lt;a href=&quot;#dyld-%E7%9A%84%E5%85%B1%E4%BA%AB%E7%BC%93%E5%AD%98&quot; aria-label=&quot;dyld 的共享缓存 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;dyld 的共享缓存&lt;/h3&gt;
+&lt;p&gt;当你构建一个真正的程序时，将会链接各种各样的库。它们又会依赖其他一些 framework 和 动态库。需要加载的动态库会非常多。而对于相互依赖的符号就更多了。可能将会有上千个符号需要解析处理，这将花费很长的时间：一般是好几秒钟。&lt;/p&gt;
+&lt;p&gt;为了缩短这个处理过程所花费时间，在 OS X 和 iOS 上的动态链接器使用了共享缓存，共享缓存存于 &lt;code class=&quot;language-text&quot;&gt;/var/db/dyld/&lt;/code&gt;。对于每一种架构，操作系统都有一个单独的文件，文件中包含了绝大多数的动态库，这些库都已经链接为一个文件，并且已经处理好了它们之间的符号关系。当加载一个 Mach-O 文件 (一个可执行文件或者一个库) 时，动态链接器首先会检查 &lt;em&gt;共享缓存&lt;/em&gt; 看看是否存在其中，如果存在，那么就直接从共享缓存中拿出来使用。每一个进程都把这个共享缓存映射到了自己的地址空间中。这个方法大大优化了 OS X 和 iOS 上程序的启动时间。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[JavaScript 执行机制]]></title><description><![CDATA[1.关于javascript javascript是一门单线程语言，在最新的HTML5中提出了Web-Worker，但javascript是单线程这一核心仍未改变。所以一切javascript版的"多线程"都是用单线程模拟出来的，一切javascript多线程都是纸老虎！…]]></description><link>https://lizhi1026.cc/2017/11-20/javascript-run-loop-ics</link><guid isPermaLink="false">https://lizhi1026.cc/2017/11-20/javascript-run-loop-ics</guid><pubDate>Mon, 20 Nov 2017 00:00:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;1关于javascript&quot;&gt;&lt;a href=&quot;#1%E5%85%B3%E4%BA%8Ejavascript&quot; aria-label=&quot;1关于javascript permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1.关于javascript&lt;/h3&gt;
 &lt;p&gt;javascript是一门单线程语言，在最新的HTML5中提出了Web-Worker，但javascript是单线程这一核心仍未改变。所以一切javascript版的&quot;多线程&quot;都是用单线程模拟出来的，一切javascript多线程都是纸老虎！&lt;/p&gt;
 &lt;h3 id=&quot;2javascript事件循环&quot;&gt;&lt;a href=&quot;#2javascript%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF&quot; aria-label=&quot;2javascript事件循环 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2.javascript事件循环&lt;/h3&gt;
 &lt;p&gt;既然js是单线程，那就像只有一个窗口的银行，客户需要排队一个一个办理业务，同理js任务也要一个一个顺序执行。如果一个任务耗时过长，那么后一个任务也必须等着。那么问题来了，假如我们想浏览新闻，但是新闻包含的超清图片加载很慢，难道我们的网页要一直卡着直到图片完全显示出来？因此聪明的程序员将任务分为两类：&lt;/p&gt;
